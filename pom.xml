@@ -15,6 +15,13 @@
         <module>gulimall-ware</module>
         <module>gulimall-member</module>
         <module>gulimall-order</module>
+        <module>gulimall-common</module>
+        <module>gulimall-gatway</module>
+
+
+        <!--git上的人人开源 fast:后台管理 generator:代码生成器-->
+        <module>renren-fast</module>
+        <module>renren-generator</module>
     </modules>
     <packaging>pom</packaging>
 

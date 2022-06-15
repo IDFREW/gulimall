@@ -1,5 +1,6 @@
 package com.ex20.gulimall.ware;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author 高诚政
  */
 @SpringBootApplication
+@MapperScan("com.ex20.gulimall.ware.dao")
 public class GuLiMallWareApplication {
     public static void main(String[] args) {
         SpringApplication.run(GuLiMallWareApplication.class,args);
